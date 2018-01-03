@@ -1,0 +1,269 @@
+﻿<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->  
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->  
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->  
+<head>
+    <title></title>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">    
+    <link rel="shortcut icon" href="favicon.ico">  
+    <!---<link href='http://fonts.googleapis.com/css?family=Roboto:400,400italic,500,500italic,700,700italic,900,900italic,300italic,300' rel='stylesheet' type='text/css'> 
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,700,300,100' rel='stylesheet' type='text/css'>--->
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">   
+    <!-- Plugins CSS -->    
+    <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="assets/plugins/flexslider/flexslider.css">
+    <!-- Theme CSS -->
+    <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/iconfont.css">
+    <script src="assets/js/jquery.min.js"></script>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+
+    <![endif]-->
+    <style>
+        .screenshot{
+            display:none;
+        }
+        .logo a{
+            display:block;
+            width:100%;
+            height:100%;
+            background-size: 100%;
+        }
+        .logo a.logo1{
+            background-image:url("./assets/images/logo/logo1.png");
+        }
+        .logo a.logo2{
+            background-image:url("./assets/images/logo/logo2.png");
+        }
+    </style>
+</head> 
+
+<body class="download-page">   
+    <!-- ******HEADER****** --> 
+    <header id="header" class="header navbar-fixed-top">  
+        <div class="container">       
+            <h1 class="logo" style="width:135.6px;height:80px;">
+                <a href="index.html" class="logo1" style="width:180px;height:120px;"> </a>
+            </h1><!--//logo-->
+            <nav class="main-nav navbar-right" role="navigation">
+                <div class="navbar-header">
+                    <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button><!--//nav-toggle-->
+                </div><!--//navbar-header-->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="nav-item"><a href="index.html">首页<br/><span style="font-size:8px;">HOME PAGE</span></a></li>
+                        <li class="nav-item"><a href="features.html">新闻<br/><span style="font-size: 8px;">NEWS</span></a></li>
+                        <li class="nav-item"><a href="pricing.html">数据<br/><span style="font-size: 8px;">DATA</span></a></li>
+                        <li class="nav-item dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="#">产品 <i class="fa fa-angle-down"></i><br/> <span style="font-size:8px;">PRODUCT</span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="download.html">下载app</a></li>
+                                <li><a href="blog.html">博客</a></li>
+                            </ul>
+                        </li><!--//dropdown-->
+                        <li class="nav-item"><a href="login.html">登录<br/> <span style="font-size: 8px;">LOG IN</span></a></li>
+                        <li class="nav-item nav-item-cta last"><a class="btn btn-cta btn-cta-secondary" href="signup.html">注册<br/> <sapn style="font-size: 8px">REGISTER</sapn></a></li>
+                    </ul><!--//nav-->
+                </div><!--//navabr-collapse-->
+            </nav><!--//main-nav-->         
+        </div><!--//container-->
+    </header><!--//header-->  
+    
+    <div class="headline-bg">
+    </div><!--//headline-bg-->      
+    
+    <!-- ******Apps Section****** --> 
+    <section class="apps-section section section-on-bg">
+        <div class="container">
+            <div class="row">
+                <div class="content-area col-md-push-5 col-sm-push-6 col-xs-push-0 col-xs-12 col-sm-6">
+                    <div class="download-area">
+                        <h2 class="title">随时随地上网</h2>
+                        <p class="intro">下载我们的应用程序为您的移动设备</p>
+                        <ul class="list-unstyled download-list">
+                            <li style="height:20px"></li>
+                            <li><a class="btn btn-ghost" href="#"><i class="fa fa-apple"></i><span class="text">Download for iOS</span> </a></li>
+                            <li style="height:20px"></li>
+                            <li><a class="btn btn-ghost" href="#"><i class="fa fa-android"></i><span class="text">Download for Android</span></a></li>
+                        </ul>
+                        <!--//Only show QR code on desktop -->
+                        <div class="qrcode-holder hidden-sm hidden-xs text-center">                      
+                            <figure class="qrcode">
+                                <img class="img-responsive" src="assets/images/mobile/erweima.png" alt="QR code" style="width:130px;height:130px;border:5px solid #fff;"/>
+                                <figcaption class="caption">扫描二维码<br /> 下 载</figcaption>
+                            </figure><!--//qrcode-->
+                        </div>
+                    </div><!--//download-area-->
+                    <div class="info">
+                        <div class="info-inner">
+                            <h3 class="title"><i class="fa fa-bullhorn"></i> 站务公告</h3>
+                            <p>任何应用程序的更新都可以进入这个领域。示例-我们将于2015年1月23日发布Windows phone应用程序。</p>
+                            <p>你可以<a href="http://www.appqr.mobi/" target="_blank">生成一个二维码</a> 马尼斯说，他是一个人。多纳克·费里斯，ultricies nec,pellentesque eu,pretium quis,sem。在马萨·奎斯·尼姆的结果。这是我的第一个。</p>
+                            
+                        </div>
+                    </div>
+                </div><!--//content-area-->    
+                <div class="phone-holder-wrapper col-md-4 col-sm-5 col-xs-12 col-md-offset-1 col-sm-offset-1 col-xs-offste-0 col-md-pull-6 col-sm-pull-6 col-xs-pull-0">
+                    <div class="phone-holder" style="position:relative">
+                        <ul style="position:absolute;width:100%;height:20px;left:0;bottom:146px;z-index:1;list-style: none;">
+                            <li class="btn1" style="width:24px;height:24px;float:left;margin-right:40px;cursor: pointer"></li>
+                            <li class="btn1" style="width:24px;height:24px;float:left;margin-right:40px;cursor:pointer"></li>
+                            <li class="btn1" style="width:24px;height:24px;float:left;margin-right:40px;cursor:pointer"></li>
+                            <li class="btn1" style="width:24px;height:24px;float:left;margin-right:40px;cursor:pointer"></li>
+                        </ul>
+                        <img class="screenshot" src="assets/images/mobile/phone1.png" alt="" style="display:block"/>
+                        <img class="screenshot" src="assets/images/mobile/phone2.png" alt="" />
+                        <img class="screenshot" src="assets/images/mobile/phone3.png" alt=""/>
+                        <img class="screenshot" src="assets/images/mobile/phone4.png" alt="" />
+                    </div><!--//phone-holder--> 
+                </div><!--//phone-holder-wrapper-->               
+            </div><!--//row-->        
+        </div><!--//container-->
+    </section><!--//feature-video--> 
+
+
+    <!-- ******FOOTER****** -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col links col-md-2 col-sm-4 col-xs-12">
+                        <div class="footer-col-inner">
+                            <h3 class="title">新闻</h3>
+                            <ul class="list-unstyled">
+                                <li><a href="#"><i class="fa fa-caret-right"></i>停车牌信息</a></li>
+                                <li><a href="#"><i class="fa fa-caret-right"></i>定期报告预约情况</a></li>
+                                <li><a href="#"><i class="fa fa-caret-right"></i>交易公开信息</a></li>
+                                <li><a href="#"><i class="fa fa-caret-right"></i>质押式回购定盘利率</a></li>
+                            </ul>
+                        </div><!--//footer-col-inner-->
+                    </div><!--//foooter-col-->
+                    <div class="footer-col links col-md-2 col-sm-4 col-xs-12">
+                        <div class="footer-col-inner">
+                            <h3 class="title">数据</h3>
+                            <ul class="list-unstyled">
+                                <li><a href="#"><i class="fa fa-caret-right"></i>股票成交概况</a></li>
+                                <li><a href="#"><i class="fa fa-caret-right"></i>港股通成交信息</a></li>
+                                <li><a href="#"><i class="fa fa-caret-right"></i>债卷成交概况</a></li>
+                                <li><a href="#"><i class="fa fa-caret-right"></i>行情信息</a></li>
+                            </ul>
+                        </div><!--//footer-col-inner-->
+                    </div><!--//foooter-col-->
+                    <div class="footer-col links col-md-2 col-sm-4 col-xs-12 sm-break">
+                        <div class="footer-col-inner">
+                            <h3 class="title">产品</h3>
+                            <ul class="list-unstyled">
+                                <li><a href="#"><i class="fa fa-caret-right"></i>上市开放式基金(LOF)</a></li>
+                                <li><a href="#"><i class="fa fa-caret-right"></i>股票期权</a></li>
+                                <li><a href="#"><i class="fa fa-caret-right"></i>ETF</a></li>
+                                <li><a href="#"><i class="fa fa-caret-right"></i>债券活跃品种</a></li>
+                            </ul>
+                        </div><!--//footer-col-inner-->
+                    </div><!--//foooter-col-->
+                    <div class="footer-col connect col-xs-12 col-md-6">
+                        <div class="footer-col-inner">
+                            <ul class="social list-inline">
+                                <li><a href="" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa  iconfont ">&#xe61b;</i></a></li>
+                                <li><a href="#"><i class="fa iconfont">&#xe602;</i></a></li>
+                                <li class="row-end"><a href="#"><i class="fa iconfont">&#xe6dd;</i></a></li>
+                            </ul>
+                            <div class="form-container">
+                                <p class="intro">跟上最新的新闻</p>
+                                <form class="signup-form navbar-form">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="输入你的email地址">
+                                    </div>
+                                    <button type="submit" class="btn btn-cta btn-cta-primary">订阅</button>
+                                </form>
+                            </div><!--//subscription-form-->
+                        </div><!--//footer-col-inner-->
+                    </div><!--//foooter-col-->
+                    <div class="clearfix"></div>
+                </div><!--//row-->
+                <div class="row has-divider">
+                    <div class="footer-col download col-xs-12 col-md-6">
+                        <div class="footer-col-inner">
+                            <h3 class="title">Mobile apps</h3>
+                            <ul class="list-unstyled download-list">
+                                <li><a class="btn btn-ghost" href="#"><i class="fa fa-apple"></i><span class="text">Download for iOS</span> </a></li>
+                                <li><a class="btn btn-ghost" href="#"><i class="fa fa-android"></i><span class="text">Download for Android</span></a></li>
+                            </ul>
+                        </div><!--//footer-col-inner-->
+                    </div><!--//download-->
+                    <div class="footer-col contact col-xs-12 col-md-6">
+                        <div class="footer-col-inner">
+                            <h3 class="title">联系我们</h3>
+                            <p class="adr clearfix">
+                                <i class="fa fa-map-marker pull-left"></i>
+                                <span class="adr-group pull-left">
+                                    <span class="street-address">上海市徐汇区桂平路35号楼301</span><br>
+                                </span>
+                            </p>
+                            <p class="tel"><i class="fa fa-phone"></i>0800 123 4567</p>
+                            <p class="email"><i class="fa fa-envelope-o"></i><a href="#">enquires@website.com</a></p>
+                        </div><!--//footer-col-inner-->
+                    </div><!--//contact-->
+                </div>
+            </div><!--//container-->
+        </div><!--//footer-content-->
+        <div class="bottom-bar">
+            <div class="container">
+                <small class="copyright">Copyright &copy; 2016.Company name All rights reserved.</a></small>
+            </div><!--//container-->
+        </div><!--//bottom-bar-->
+    </footer><!--//footer-->
+ 
+    <!-- Javascript -->          
+    <script type="text/javascript" src="assets/plugins/jquery-1.12.3.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script> 
+    <script type="text/javascript" src="assets/plugins/bootstrap-hover-dropdown.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/back-to-top.js"></script>
+    <script type="text/javascript" src="assets/plugins/jquery-placeholder/jquery.placeholder.js"></script>
+    <script type="text/javascript" src="assets/plugins/FitVids/jquery.fitvids.js"></script>  
+    <script type="text/javascript" src="assets/plugins/flexslider/jquery.flexslider-min.js"></script> 
+    <script type="text/javascript" src="assets/js/main.js"></script>
+    <script>
+        $(".btn1").each(function(index,ele){
+            $(this).on("click",function () {
+                $(".screenshot").each(function(i,e){
+                    if(index==i){
+                        $(".screenshot").css("display","none");
+                        $(this).css("display","block")
+                    }
+                })
+            })
+        })
+    </script>
+            
+</body>
+<script>
+    $(window).scroll(function(){
+        var scolltop=$(window).scrollTop();
+        console.log(scolltop)
+        if(scolltop>0){
+            $('.logo a').addClass("logo2").removeClass("logo1")
+        }else{
+            $('.logo a').addClass("logo1").removeClass("logo2")
+        }
+    })
+
+</script>
+</html> 
+
+
